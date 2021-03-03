@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+
+
+
+
+
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+a{display: block; text-decoration: none; color: #333; font-family: font-family: 'Noto Sans KR', sans-serif;}
+img{width: 100%; }
+.wrap{width: 100%; }
+header{position: fixed; width: 96%; height: 8.5vh; margin: 2% ; background-color: #2b2b2b; display: flex; justify-content: space-between; z-index: 50; padding-top: 1.2vw;}
+header .menu_btn{width: 7%; margin: 3.1%; margin-top: 4%; margin-left: 6.1%;}
+header .logo{width: 9%; margin: 1%; }
+header .basket {width: 11%; margin: 2.3%; margin-top: 3.2%; margin-right: 5%;}
+
+
+/* 내비게이션 */
+.navi{position: absolute; top: 0; left: 0; width: 100%; background-color: transparent; z-index: 100; left: -100vw; }
+.navi nav{width: 80%; height: 100vh; background-color: #747f66; box-shadow: 50px 14px 50px 36px rgba(0 0 0/30%); float: left; box-sizing: border-box; padding: 10% 8%; position: relative; }
+.navi nav ul li a{padding: 7% 0; font-size: 3.5vw; font-weight: 600; color: white; 
+box-sizing: border-box; padding-left: 15vw; margin-left: -15vw;}
+.navi nav ul li a.active{color: #2b2b2b; background-color: #ebebeb;  }
+.navi nav .sub{position: absolute; background-color: #ebebeb; right: 0%; top: 0; 
+ height: 100vh; box-sizing: border-box; padding: 13% 7%; width: 46%;}
+.navi nav .sub li a{font-weight: normal; color: #2b2b2b; padding: 12% 0; font-size: 3.1vw;
+ margin-left: 1.5vw;}
+.navi .close{float: left; margin: 12% 5%; }
+.navi .close a{position: relative; z-index: 100; background-color: #ebebeb; 
+border-radius: 100%; width: 45px; height: 45px;}
+.navi .close a img{width: 4.5vw; margin:2.5vw;}
+
+
+.main{width: 100%; height: 60vh;}
+.main .swiper-container{width: 100%; height: 100%; }
+.main .swiper-slide{background-position: center; background-size: cover; 
+background-repeat: no-repeat; }
+.main .s1{background-image: url(../images/slide_1.jpg);}
+.main .s2{background-image: url(../images/slide_2.jpg);}
+.main .s3{background-image: url(../images/slide_3.jpg);}
+
+
+.promotion{background-image: url(../images/sale_bg.jpg); background-position: center;
+background-size: cover; background-repeat: no-repeat; height: 35vh; width: 100%;}
+.p_wrap{width: 70%; margin: 0 auto; padding-top: 20vw;}
+.promotion h1{font-size: 7vw; text-align: center; color: #a7bf5a; }
+.promotion h1 span {font-weight:500; font-size: 6vw;}
+.promotion p{color: white; text-align: center; margin: 1vw 0; font-size: 3.2vw; letter-spacing: -0.2vw;}
+.promotion .more{width: 24vw; margin: 0 auto; margin-top: 7vw; background-color: #879264;
+height: 3.2vh; border-radius: 11px;}
+.promotion .more p{font-size: 2.8vw; padding-top: 0.7vw; font-weight: 500;}
+
+
+
+/* 탭메뉴 */
+.tab{width: 100%; background-image: url(../images/back_1.jpg); background-position: center; background-repeat: no-repeat; background-size: cover; color: #2b2b2b;}
+.tab .tab_title{display: flex; justify-content: space-between;}
+.tab .tab_title a{width: 33.33333333333%; text-align: center; font-size: 3.2vw;
+    padding: 3%; padding: 3%; background-color:#2b2b2b; color: #a3b66c; font-weight: 600;
+      }
+.tab .tab_title a.active{background-image: url(../images/tm_bg.jpg); background-position: center; background-repeat: no-repeat; background-size: cover; color: #2b2b2b;}
+.tab .tab_content{position: relative; width: 100%; height: 50vh; background-image: url(../images/back_1.jpg); background-size: cover; background-position: center; background-repeat: no-repeat;}
+.tab .tab_content>div {position: absolute; }
+.tab .tab_content div{ width: 100%; }
+
+
+.tab .tab_content .c1 .c1_wrap{width: 85%; margin: 0 auto; padding-top: 12vw;}
+.tab .tab_content .c1 .c1_t{width: 100%; }
+.tab .tab_content .c1 .c1_t .c1_p{width: 35vw; float: left; margin-right: 3vw; }
+.tab .tab_content .c1 .txt{float: left; width: 45%; margin-left: 8vw;}
+.tab .tab_content .c1 .txt h2{ font-family: 'Jeju Myeongjo', serif;}
+.tab .tab_content .c1 .txt img{width: 8vw;}
+.tab .tab_content .c1 .txt p{font-size: 3vw; margin-top: 2.5vw;}
+.tab .tab_content .c1 .c1_b ul{clear: both;}
+.tab .tab_content .c1 .c1_b ul li {width:47%; float: left; margin-top: 8vw;}
+.tab .tab_content .c1 .c1_b ul li:first-child{margin-right: 5vw;}
+
+
+.tab .tab_content .c2 .c2_wrap{width: 85%; margin: 0 auto; padding-top: 12vw;}
+.tab .tab_content .c2 .c2_t{width: 100%; }
+.tab .tab_content .c2 .c2_t .c2_p{width: 35vw; float: left; margin-right: 3vw; }
+.tab .tab_content .c2 .txt{float: left; width: 45%; margin-left: 8vw;}
+.tab .tab_content .c2 .txt h2{ font-family: 'Jeju Myeongjo', serif;}
+.tab .tab_content .c2 .txt img{width: 8vw;}
+.tab .tab_content .c2 .txt p{font-size: 3vw; margin-top: 2.5vw;}
+.tab .tab_content .c2 .c2_b ul{clear: both;}
+.tab .tab_content .c2 .c2_b ul li {width:47%; float: left; margin-top: 8vw;}
+.tab .tab_content .c2 .c2_b ul li:first-child{margin-right: 5vw;}
+
+
+.tab .tab_content .c3 .c3_wrap{width: 85%; margin: 0 auto; padding-top: 12vw;}
+.tab .tab_content .c3 .c3_t{width: 100%; }
+.tab .tab_content .c3 .c3_t .c3_p{width: 35vw; float: left; }
+.tab .tab_content .c3 .txt{float: left; width: 45%; margin-left: 8vw;}
+.tab .tab_content .c3 .txt h2{ font-family: 'Jeju Myeongjo', serif; }
+.tab .tab_content .c3_t{margin-left: 3.2vw;}
+.tab .tab_content .c3 .txt img{width: 8vw;}
+.tab .tab_content .c3 .txt p{font-size: 3vw; margin-top: 2.5vw;}
+.tab .tab_content .c3 .c3_b ul{clear: both;}
+.tab .tab_content .c3 .c3_b ul li {width:47%; float: left; margin-top: 8vw;}
+.tab .tab_content .c3 .c3_b ul li:first-child{margin-right: 5vw;}
+
+.tab .more{width: 18vw; margin: 0 auto; padding-bottom:10vw;}
+
+
+
+/* 베스트 */
+.best{width: 100%; background-image: url(../images/back_2.png); background-position: center; background-repeat: no-repeat; background-size: cover; height: 85vh;} 
+.best .b_wrap{ margin: 0 auto; width: 88%;}
+.best .b_wrap .title{text-align: center; padding-top:11vw; padding-bottom: 8vw;}
+.best .b_wrap .title span{font-weight: normal;}
+.best .b_wrap .title h1{color: #fff;  }
+.best .b_wrap .title p{color: #ffffff; font-size: 3vw;}
+.best .best_pro li{width:40vw; height: 42vw; float: left; background-position: center; background-repeat: no-repeat; background-size: cover; padding-top: 8vw; margin-bottom: 3.5vw; margin-bottom: 7vw;}
+.best .best_pro li h4, h3{text-align: center; }
+.best .best_pro li h3{color: #6a734c; font-size: 3.6vw;}
+.best .best_pro li h3 span{font-size: 3vw; margin-left: 0.5vw;}
+.best .best_pro li h4{margin-top: 30vw; font-size: 3vw; color: #2b2b2b;}
+.best .best_pro li:first-child{background-image: url(../images/best_1.png);}
+.best .best_pro li:nth-child(2){background-image: url(../images/best_2.png);}
+.best .best_pro li:nth-child(3){background-image: url(../images/best_3.png); margin-top: -2vw;}
+.best .best_pro li:last-child{background-image: url(../images/best_4.png); margin-top: -2vw;}
+.best .best_pro li:nth-child(odd){margin-right: 3vw; margin-left: 2vw; }
+.best .more{width: 10vw; margin: 0 auto; }
+
+
+
+/* 라이프 */
+.life{width: 100%; height: 55vh;}
+.life .l_wrap{width: 88%; margin: 0 auto;  margin-top: 13vw;}
+.life .title{text-align: center; color: #2b2b2b; }
+.life .title h1{font-weight: normal; font-size: 5.5vw;}
+.life .title span{font-weight: 900;}
+.life .title p{font-size: 2.9vw; margin-top: 1vw;}
+.life .l_wrap .life_photo{margin-top: 10vw;}
+.life .l_wrap .life_photo li{float: left; width: 28vw; margin-right: 1vw;}
+
+
+
+footer{width: 100%; background-color: #2b2b2b; height:37vh;}
+footer .f_t{width: 100%; height: 6vh; border-bottom: 1px solid #464646;}
+footer .f_t ul{width: 86%; margin: 0 auto; }
+footer .f_t ul li {float: left; line-height: 6vh;}
+footer .f_t ul li a{color: #bebebe; font-size: 2.7vw; margin-right: 2.1vw;}
+footer .f_t ul li:last-child{margin-right: inherit;}
+footer .f_t ul li span{font-weight: bold;}
+footer .f_b{width: 86%; margin: 0 auto; margin-top: 5vw;}
+footer .f_b p{color: #bebebe; font-size: 2.5vw;}
+footer .f_b p:nth-child(2){margin-top: 5vw; line-height: 4vw;}
+footer .f_b p span{font-size: 5vw;}
+footer .txt{float: left; width: 70vw; margin-left: 5vw;}
+footer .logo{width: 11vw; float: left;}
+
+
+
+
