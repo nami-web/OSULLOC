@@ -14,10 +14,11 @@ li{list-style: none;}
 a{display: block; text-decoration: none; color: #333;  font-family: 'Noto Sans KR', sans-serif;}
 img{width: 100%; }
 .wrap{width: 100%; }
-header{position: fixed; width: 96%; height: 8.5vh; margin: 2% ; background-color: #2b2b2b; display: flex; justify-content: space-between; z-index: 50; padding-top: 1.2vw;}
+header{position: fixed; width: 96%; height: 15vw; margin: 2% ; background-color: #2b2b2b; display: flex; justify-content: space-between; z-index: 50; padding-top: 1.2vw;}
 header .menu_btn{width: 7%; margin: 3.1%; margin-top: 4%; margin-left: 6.1%;}
 header .logo{width: 9%; margin: 1%; }
 header .basket {width: 11%; margin: 2.3%; margin-top: 3.2%; margin-right: 5%;}
+
 
 
 /* 내비게이션 */
@@ -30,10 +31,10 @@ box-sizing: border-box; padding-left: 15vw; margin-left: -15vw;}
  height: 100vh; box-sizing: border-box; padding: 13% 7%; width: 46%;}
 .navi nav .sub li a{font-weight: normal; color: #2b2b2b; padding: 12% 0; font-size: 3.1vw;
  margin-left: 1.5vw;}
-.navi .close{float: left; margin-top: 12.5vw ; margin-left: 4.5vw;}
+.navi .close{float: left; margin-top: 13vw ; margin-left: 4.5vw;}
 .navi .close a{position: relative; z-index: 100; background-color: #ebebeb; 
 border-radius: 100%; width: 10vw; height: 10vw;}
-.navi .close a img{width: 4.5vw; margin:2.5vw;}
+.navi .close a img{width: 4.5vw; margin:2.8vw;}
 
 
 .main{width: 100%; height: 125vw;}
@@ -53,7 +54,7 @@ background-size: cover; background-repeat: no-repeat; height: 63vw; width: 100%;
 .promotion p{color: white; text-align: center; margin: 1vw 0; font-size: 3.2vw; letter-spacing: -0.2vw;}
 .promotion .more{width: 24vw; margin: 0 auto; margin-top: 7vw; background-color: #879264;
 height: 3.2vh; border-radius: 11px;}
-.promotion .more p{font-size: 2.8vw; padding-top: 0.7vw; font-weight: 500;}
+.promotion .more p{font-size: 2.8vw; padding-top: 0.8vw; font-weight: 500;}
 
 
 
@@ -105,7 +106,7 @@ height: 3.2vh; border-radius: 11px;}
 .tab .tab_content .c3 .c3_b ul li {width:47%; float: left; margin-top: 8vw;}
 .tab .tab_content .c3 .c3_b ul li:first-child{margin-right: 5vw;}
 
-.tab .more{width: 18vw; margin: 0 auto; padding-bottom:12vw;}
+.tab .more{width: 19vw; margin: 0 auto; padding-bottom:12vw;}
 
 
 
@@ -145,16 +146,17 @@ height: 3.2vh; border-radius: 11px;}
 footer{width: 100%; background-color: #2b2b2b; height:70vw;}
 footer .f_t{width: 100%; height: 6vh; border-bottom: 1px solid #464646;}
 footer .f_t ul{width: 86%; margin: 0 auto; }
-footer .f_t ul li {float: left; line-height: 6vh;}
-footer .f_t ul li a{color: #bebebe; font-size: 2.7vw; margin-right: 2.1vw;}
+footer .f_t ul li:first-child{margin-left: 2vw;}
+footer .f_t ul li {float: left; line-height: 6vh; margin-right: 3.5vw;}
+footer .f_t ul li a{color: #bebebe; font-size: 2.7vw; }
 footer .f_t ul li:last-child{margin-right: inherit;}
 footer .f_t ul li span{font-weight: bold;}
 footer .f_b{width: 86%; margin: 0 auto; margin-top: 5vw;}
 footer .f_b p{color: #bebebe; font-size: 2.5vw;}
 footer .f_b p:nth-child(2){margin-top: 5vw; line-height: 4vw;}
 footer .f_b p span{font-size: 5vw;}
-footer .txt{float: left; width: 70vw; margin-left: 5vw;}
-footer .logo{width: 11vw; float: left;}
+footer .txt{float: left; width: 68vw; margin-left: 5vw;}
+footer .logo{width: 10vw; float: left; margin-left: 2vw;}
 
 
 
