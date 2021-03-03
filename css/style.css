@@ -50,7 +50,7 @@ background-repeat: no-repeat; }
 background-size: cover; background-repeat: no-repeat; height: 63vw; width: 100%;}
 .p_wrap{width: 70%; margin: 0 auto; padding-top: 18vw;}
 .promotion h1{font-size: 7vw; text-align: center; color: #a7bf5a; }
-.promotion h1 span {font-weight:500; font-size: 6vw;}
+.promotion h1 span {font-weight:500; font-size: 6vw; font-family: 'Noto Sans KR', sans-serif; }
 .promotion p{color: white; text-align: center; margin: 1vw 0; font-size: 3.2vw; letter-spacing: -0.2vw;}
 .promotion .more{width: 24vw; margin: 0 auto; margin-top: 7vw; background-color: #879264;
 height: 3.2vh; border-radius: 11px;}
@@ -114,8 +114,8 @@ height: 3.2vh; border-radius: 11px;}
 .best{width: 100%; background-image: url(../images/back_2.png); background-position: center; background-repeat: no-repeat; background-size: cover; height: 157vw;} 
 .best .b_wrap{ margin: 0 auto; width: 88%;}
 .best .b_wrap .title{text-align: center; padding-top:11vw; padding-bottom: 8vw;}
-.best .b_wrap .title span{font-weight: normal;}
-.best .b_wrap .title h1{color: #fff;  }
+.best .b_wrap .title span{font-weight: normal; font-family: 'Noto Sans KR', sans-serif;}
+.best .b_wrap .title h1{color: #fff; font-family: 'Noto Sans KR', sans-serif;}
 .best .b_wrap .title p{color: #ffffff; font-size: 3vw;}
 .best .best_pro li{width:40vw; height: 42vw; float: left; background-position: center; background-repeat: no-repeat; background-size: cover; padding-top: 8vw; margin-bottom: 3.5vw; margin-bottom: 7vw;}
 .best .best_pro li h4, h3{text-align: center; }
@@ -135,8 +135,8 @@ height: 3.2vh; border-radius: 11px;}
 .life{width: 100%; height: 105vw;}
 .life .l_wrap{width: 88%; margin: 0 auto;  margin-top: 13vw;}
 .life .title{text-align: center; color: #2b2b2b; }
-.life .title h1{font-weight: normal; font-size: 5.5vw;}
-.life .title span{font-weight: 900;}
+.life .title h1{font-weight: normal; font-size: 5.5vw; font-family: 'Noto Sans KR', sans-serif;}
+.life .title span{font-weight: 900; font-family: 'Noto Sans KR', sans-serif;}
 .life .title p{font-size: 2.9vw; margin-top: 1vw;}
 .life .l_wrap .life_photo{margin-top: 10vw;}
 .life .l_wrap .life_photo li{float: left; width: 28vw; margin-right: 1vw;}
