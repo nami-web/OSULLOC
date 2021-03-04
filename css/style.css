@@ -49,7 +49,7 @@ background-repeat: no-repeat; }
 .promotion{background-image: url(../images/sale_bg.jpg); background-position: center;
 background-size: cover; background-repeat: no-repeat; height: 63vw; width: 100%;}
 .p_wrap{width: 70%; margin: 0 auto; padding-top: 18vw;}
-.promotion h1{font-size: 7vw; text-align: center; color: #a7bf5a; }
+.promotion h1{font-size: 7vw; text-align: center; color: #a7bf5a; font-family: 'Noto Sans KR', sans-serif;}
 .promotion h1 span {font-weight:500; font-size: 6vw; font-family: 'Noto Sans KR', sans-serif; }
 .promotion p{color: white; text-align: center; margin: 1vw 0; font-size: 3.2vw; letter-spacing: -0.2vw;}
 .promotion .more{width: 24vw; margin: 0 auto; margin-top: 7vw; background-color: #879264;
@@ -70,41 +70,22 @@ height: 3.2vh; border-radius: 11px;}
 .tab .tab_content div{ width: 100%; }
 
 
-.tab .tab_content .c1 .c1_wrap{width: 85%; margin: 0 auto; padding-top: 12vw;}
-.tab .tab_content .c1 .c1_t{width: 100%; }
-.tab .tab_content .c1 .c1_t .c1_p{width: 35vw; float: left; margin-right: 3vw; }
-.tab .tab_content .c1 .txt{float: left; width: 45%; margin-left: 8vw;}
-.tab .tab_content .c1 .txt h2{ font-family: 'Jeju Myeongjo', serif;}
-.tab .tab_content .c1 .txt img{width: 8vw;}
-.tab .tab_content .c1 .txt p{font-size: 3vw; margin-top: 2.5vw;}
-.tab .tab_content .c1 .c1_b ul{clear: both;}
-.tab .tab_content .c1 .c1_b ul li {width:47%; float: left; margin-top: 8vw;}
-.tab .tab_content .c1 .c1_b ul li:first-child{margin-right: 5vw;}
+.tab .tab_content .c_con .c_wrap{width: 85%; margin: 0 auto; padding-top: 12vw;}
+.tab .tab_content .c_con .c_t{width: 100%; }
+.tab .tab_content .c_con .c_t .c_p{width: 35vw; float: left; margin-right: 3vw; }
+.tab .tab_content .c_con .txt{float: left; width: 45%; margin-left: 8vw;}
+.tab .tab_content .c_con .txt h2{ font-family: 'Jeju Myeongjo', serif;}
+.tab .tab_content .c_con .txt img{width: 8vw;}
+.tab .tab_content .c_con .txt p{font-size: 3vw; margin-top: 2.5vw;}
+.tab .tab_content .c_con .c_b ul{clear: both;}
+.tab .tab_content .c_con .c_b ul li {width:47%; float: left; margin-top: 8vw;}
+.tab .tab_content .c_con .c_b ul li:first-child{margin-right: 5vw;}
+ 
 
+.tab .tab_content .c3 .c_t .c_p{width: 35vw; float: left; }
+.tab .tab_content .c3 .c_t{margin-left: 3.2vw;}
+.tab .tab_content .c3 .c_t .txt{margin-left: 5vw;}
 
-.tab .tab_content .c2 .c2_wrap{width: 85%; margin: 0 auto; padding-top: 12vw;}
-.tab .tab_content .c2 .c2_t{width: 100%; }
-.tab .tab_content .c2 .c2_t .c2_p{width: 35vw; float: left; margin-right: 3vw; }
-.tab .tab_content .c2 .txt{float: left; width: 45%; margin-left: 8vw;}
-.tab .tab_content .c2 .txt h2{ font-family: 'Jeju Myeongjo', serif;}
-.tab .tab_content .c2 .txt img{width: 8vw;}
-.tab .tab_content .c2 .txt p{font-size: 3vw; margin-top: 2.5vw;}
-.tab .tab_content .c2 .c2_b ul{clear: both;}
-.tab .tab_content .c2 .c2_b ul li {width:47%; float: left; margin-top: 8vw;}
-.tab .tab_content .c2 .c2_b ul li:first-child{margin-right: 5vw;}
-
-
-.tab .tab_content .c3 .c3_wrap{width: 85%; margin: 0 auto; padding-top: 12vw;}
-.tab .tab_content .c3 .c3_t{width: 100%; }
-.tab .tab_content .c3 .c3_t .c3_p{width: 35vw; float: left; }
-.tab .tab_content .c3 .txt{float: left; width: 45%; margin-left: 8vw;}
-.tab .tab_content .c3 .txt h2{ font-family: 'Jeju Myeongjo', serif; }
-.tab .tab_content .c3_t{margin-left: 3.2vw;}
-.tab .tab_content .c3 .txt img{width: 8vw;}
-.tab .tab_content .c3 .txt p{font-size: 3vw; margin-top: 2.5vw;}
-.tab .tab_content .c3 .c3_b ul{clear: both;}
-.tab .tab_content .c3 .c3_b ul li {width:47%; float: left; margin-top: 8vw;}
-.tab .tab_content .c3 .c3_b ul li:first-child{margin-right: 5vw;}
 
 .tab .more{width: 19vw; margin: 0 auto; padding-bottom:12vw;}
 
@@ -162,6 +143,6 @@ footer .logo{width: 10vw; float: left; margin-left: 2vw;}
 
 footer .top{float: right; width: 7vw; height: 7vw; padding: 1.3%;
 font-size: 2.5vw; background-color: #9fb166; line-height: 7vw; 
-text-align: center; border-radius: 100%; margin-right: 3vw; margin-top:-2vw;
-font-weight: 900; color: #2b2b2b;}
+text-align: center; border-radius: 100%; margin-right: 3vw; margin-top:1vw;
+font-weight: 900; color: #2b2b2b; z-index: 99; position: relative;}
 
