@@ -75,4 +75,16 @@ $(document).ready(function(){
     
      });
     
+    
+    //top 버튼
+    $('.top').click(function(){
+        $('html,body').animate({
+            scrollTop:0
+            
+        });
+        
+    });
+    
+    
+    
 });
