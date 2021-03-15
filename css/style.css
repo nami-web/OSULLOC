@@ -100,7 +100,7 @@ height: 3.2vh; border-radius: 11px;}
 .best .b_wrap .title h1{color: #fff; font-family: 'Noto Sans KR', sans-serif;}
 .best .b_wrap .title p{color: #ffffff; font-size: 3vw;}
 .best_pro{width: 95%; margin: 0 auto; margin-top: 3vw; display: flex; justify-content: space-between; flex-flow: row wrap;}
-.best .best_pro li{width:45%; height: 42vw; background-position: center; background-repeat: no-repeat; background-size: cover; padding-top: 8vw; margin-bottom: 7vw;}
+.best .best_pro li{width:46.9%; height: 42vw; background-position: center; background-repeat: no-repeat; background-size: cover; padding-top: 8vw; margin-bottom: 7vw;}
 .best .best_pro li h4, h3{text-align: center; }
 .best .best_pro li h3{color: #6a734c; font-size: 3.6vw;}
 .best .best_pro li h3 span{font-size: 3vw; margin-left: 0.5vw;}
@@ -121,25 +121,26 @@ height: 3.2vh; border-radius: 11px;}
 .life .title h1{font-weight: normal; font-size: 5.5vw; font-family: 'Noto Sans KR', sans-serif;}
 .life .title span{font-weight: 900; font-family: 'Noto Sans KR', sans-serif;}
 .life .title p{font-size: 2.9vw; margin-top: 1vw;}
-.life .l_wrap .life_photo{display: flex; flex-flow: row wrap;}
-.life .l_wrap .life_photo li{width: 50vw; margin-right: 1vw;}
+.life .l_wrap .life_photo{display: flex; flex-flow: row wrap; margin-top: 7vw;}
+.life .l_wrap .life_photo li{width: 27vw; margin-right: 1vw;}
 
 
 
-footer{width: 100%; background-color: #2b2b2b; height:70vw;}
+footer{width: 100%; background-color: #2b2b2b; height:70vw; float: left;
+padding-bottom: 3vw;}
 footer .f_t{width: 100%; height: 6vh; border-bottom: 1px solid #464646;}
-footer .f_t ul{width: 86%; margin: 0 auto; }
+footer .f_t ul{width: 90%; margin: 0 auto; }
 footer .f_t ul li:first-child{margin-left: 2vw;}
 footer .f_t ul li {float: left; line-height: 6vh; margin-right: 3.5vw;}
 footer .f_t ul li a{color: #bebebe; font-size: 2.7vw; }
 footer .f_t ul li:last-child{margin-right: inherit;}
 footer .f_t ul li span{font-weight: bold;}
-footer .f_b{width: 86%; margin: 0 auto; margin-top: 5vw;}
+footer .f_b{width: 86%; margin: 0 auto; margin-top: 5vw; display: flex; justify-content: space-between;}
 footer .f_b p{color: #bebebe; font-size: 2.5vw;}
 footer .f_b p:nth-child(2){margin-top: 5vw; line-height: 4vw;}
 footer .f_b p span{font-size: 5vw;}
-footer .txt{float: left; width: 68vw; margin-left: 5vw;}
-footer .logo{width: 10vw; float: left; margin-left: 2vw;}
+footer .txt{width: 68vw; margin-left: 5vw;}
+footer .logo{width: 10vw; margin-left: 2vw;}
 
 
 
